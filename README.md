@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/rklaehn/is-impl.svg?branch=master)](https://travis-ci.org/rklaehn/is-impl)
+
 # About
 
 This is a tiny macro that just checks that an expression conforms to a trait type.
