@@ -1,6 +1,6 @@
 [package]
 name = "is-impl"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Rüdiger Klaehn <rklaehn@protonmail.com>"]
 description = "Rust macro to check that a type conforms to an impl"
 repository = "https://github.com/rklaehn/is-impl"
