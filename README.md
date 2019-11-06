@@ -1,10 +1,12 @@
 
-# Is-Impl &emsp; [![Build Status]][travis] [![Latest Version]][crates.io]
+# Is-Impl &emsp; [![Build Status]][travis] [![Latest Version]][crates.io] [![Docs Badge]][docs.rs]
 
 [Build Status]: https://api.travis-ci.org/rklaehn/is-impl.svg?branch=master
 [travis]: https://travis-ci.org/rklaehn/is-impl
 [Latest Version]: https://img.shields.io/crates/v/is-impl.svg
 [crates.io]: https://crates.io/crates/is-impl
+[Docs Badge]: https://img.shields.io/badge/docs-docs.rs-green
+[docs.rs]: https://docs.rs/is-impl
 
 # About
 
@@ -19,7 +21,7 @@ everywhere until I can precisely locate the problem.
 The problem is that in rust the types are either sometimes several pages long, or not nameable at all. So ideally what you
 want to do is to check that a type conforms to a trait. Naively I tried something like this:
 
-```notrust
+```rust
 let f: impl Future<Output=i32> = something();
 ```
 
