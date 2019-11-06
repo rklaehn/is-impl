@@ -1,4 +1,10 @@
-[![Build Status](https://travis-ci.org/rklaehn/is-impl.svg?branch=master)](https://travis-ci.org/rklaehn/is-impl)
+
+# Is-Impl &emsp; [![Build Status]][travis] [![Latest Version]][crates.io]
+
+[Build Status]: https://api.travis-ci.org/rklaehn/is-impl.svg?branch=master
+[travis]: https://travis-ci.org/rklaehn/is-impl
+[Latest Version]: https://img.shields.io/crates/v/is-impl.svg
+[crates.io]: https://crates.io/crates/is-impl
 
 # About
 
