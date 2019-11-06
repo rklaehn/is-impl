@@ -8,6 +8,7 @@ license = "MIT OR Apache-2.0"
 keywords = ["macro", "trait", "impl"]
 edition = "2018"
 readme = "README.md"
+homepage = "https://github.com/rklaehn"
 
 [dev-dependencies]
 futures-preview = { version = "0.3.0-alpha.19", features = ["compat"] }
