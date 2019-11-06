@@ -1,0 +1,14 @@
+[package]
+name = "is-impl"
+version = "0.1.0"
+authors = ["Rüdiger Klaehn <rklaehn@protonmail.com>"]
+description = "Rust macro to check that a type conforms to an impl"
+repository = "https://github.com/rklaehn/is-impl"
+license = "MIT OR Apache-2.0"
+keywords = ["macro", "trait", "impl"]
+edition = "2018"
+readme = "README.md"
+
+[dev-dependencies]
+futures-preview = { version = "0.3.0-alpha.19", features = ["compat"] }
+futures01 = { package = "futures", version = "0.1" }
