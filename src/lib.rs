@@ -45,6 +45,10 @@
 /// // do the thing!
 /// spawn(res);
 /// ```
+///
+/// Usually I use `is_impl!` to figure out where the types don't align during development, and then remove the assertions
+/// again once I am happy with the code. But since the macro does not have a runtime cost you can also leave them in.
+///
 #[macro_export]
 macro_rules! is_impl {
     ($type:ty, $ex:expr) => {{

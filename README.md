@@ -23,3 +23,6 @@ let f = is_impl!(dyn Future<Output=i32>, something());
 ```
 
 A larger example can be found in the [examples](examples/future_compat.rs) and in the documentation.
+
+There are similar crates such as [assert_impl](https://docs.rs/assert-impl/0.1.3/assert_impl/), but I find it useful to use
+the assertion inline during development.
