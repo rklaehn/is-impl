@@ -15,7 +15,7 @@ This is a tiny macro that just checks that an expression conforms to a trait typ
 # Motivation
 
 When writing complex futures and streams code at the time when I had to use both futures 0.1 and futures 0.3 libraries,
-I often got lot with all the `.compat()` calls. One technique I typically use in other typed languages is to add types
+I often got lost with all the `.compat()` calls. One technique I typically use in other typed languages is to add types
 everywhere until I can precisely locate the problem.
 
 The problem is that in rust the types are either sometimes several pages long, or not nameable at all. So ideally what you
